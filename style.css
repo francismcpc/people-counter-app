@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h2,
+h1 {
+  color: #2d2e32;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+#save-el {
+  padding-top: 20px;
+}
+
+.entries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  background: url(subway.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 4px;
+  max-width: 100%;
+  margin: 0 20px;
+  width: 360px;
+}
+
+@media (max-width: 330px) {
+  .card {
+    width: 290px;
+  }
+}
+
+#count-el {
+  font-size: 4rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#increment-btn {
+  padding: 0.875rem 1.6rem;
+  font-size: 19px;
+  background-color: maroon;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#increment-btn:hover {
+  background-color: #8f1919;
+}
+
+#save-btn {
+  padding: 0.875rem 1.6rem;
+  font-size: 19px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#save-btn:hover {
+  background-color: rgb(25, 160, 25);
+}
