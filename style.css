@@ -54,6 +54,12 @@ p {
   width: 360px;
 }
 
+@media (max-width: 375px) {
+  .card {
+    width: 320px;
+  }
+}
+
 @media (max-width: 330px) {
   .card {
     width: 290px;
